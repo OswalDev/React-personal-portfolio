@@ -16,26 +16,46 @@ export const Projects = () => {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg1,
+      links:{
+        demo: "https://modern-uiux-bank-react-app.vercel.app/",
+        repository:"https://github.com/OswalDev/Modern-UI-UX-Bank-React-App"
+      },
     },
     {
       title: "Personal Budget tracker",
       description: "Design & Development",
       imgUrl: projImg2,
+      links:{
+        demo: "https://oswaldev.github.io/React-Budget-App/",
+        repository:"https://github.com/OswalDev/React-Budget-App"
+      },
     },
     {
       title: "Weather app",
       description: "Design & Development",
       imgUrl: projImg3,
+      links:{
+        demo: "https://react-weather-app-lime.vercel.app/",
+        repository:"https://github.com/OswalDev/React-Weather-App"
+      },
     },
     {
       title: "Realtime chat app",
       description: "Design & Development",
       imgUrl: projImg4,
+      links:{
+        demo: "",
+        repository:"https://github.com/OswalDev/React-Firebase-Chat-App"
+      },
     },
     {
       title: "FullStack Expense tracker",
       description: "Design & Development",
       imgUrl: projImg5,
+      links:{
+        demo: "",
+        repository:"https://github.com/OswalDev/expense-tracker"
+      },
     },
   ];
 
@@ -50,6 +70,7 @@ export const Projects = () => {
                 <h2>Projects</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 <Tab.Container className="one-tab" id="projects-tabs" defaultActiveKey="first">
+                  {/* block of code for proyect tabs */}
                 {/* {projects.length > 6 ? (
                   <Nav variant="pills" className= " one-tab nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">                    
                     <Nav.Item>
