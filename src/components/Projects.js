@@ -50,7 +50,7 @@ export const Projects = () => {
                 <h2>Projects</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 <Tab.Container className="one-tab" id="projects-tabs" defaultActiveKey="first">
-                {projects.length > 6 ? (
+                {/* {projects.length > 6 ? (
                   <Nav variant="pills" className= " one-tab nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">                    
                     <Nav.Item>
                       <Nav.Link eventKey="first">Tab 1</Nav.Link>
@@ -68,7 +68,7 @@ export const Projects = () => {
                       <Nav.Link eventKey="second">Tab 2</Nav.Link>
                     </Nav.Item>
                   </Nav>
-                  )}
+                  )} */}
 
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
