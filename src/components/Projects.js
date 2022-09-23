@@ -68,7 +68,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>Here are some projects i have been asked to develop or have built on my own, feel free to check the repo or even try the online demo</p>
                 <Tab.Container className="one-tab" id="projects-tabs" defaultActiveKey="first">
                   {/* block of code for proyect tabs */}
                 {/* {projects.length > 6 ? (
