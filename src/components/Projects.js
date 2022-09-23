@@ -68,7 +68,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>Here are some projects I have been asked to develop or have built on my own, feel free to check the repo or even try the online demo</p>
+                <p>Here are some projects I have been asked to develop or have built on my own, feel free to check the repository or even try the online demo</p>
                 <Tab.Container className="one-tab" id="projects-tabs" defaultActiveKey="first">
                   {/* block of code for proyect tabs */}
                 {/* {projects.length > 6 ? (
