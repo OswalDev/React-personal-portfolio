@@ -1,10 +1,10 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import { Redirect } from "react-router-dom";
+import { Redirect, useLocation } from "react-router-dom";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -14,7 +14,8 @@ export const Banner = () => {
   const [index, setIndex] = useState(1);
   const toRotate = [ "Frontend Developer", "React Developer" ];
   const period = 2000;
-
+  const scrollToRef = useRef();
+  
   useEffect(() => {
     let ticker = setInterval(() => {
       tick();
@@ -59,7 +60,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi I'm Oswaldo, `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Frontend Developer", "React Developer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>My passion for learning and technology have led me to discover the beautiful world of software development. Now I find myself navigating this inmense world of IT, facing new challenges every day in order to improve my skills as a developer and grow as a professional, giving 100% of myself to offer better solutions to any problem.</p>
-                  <button onClick={() => console.log('redirect to form')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <button onClick={() => ("#contact").current.scrollIntoView()}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
