@@ -9,6 +9,7 @@ import PHP from "../assets/img/php.svg";
 import React from "../assets/img/react.svg";
 import Redux from "../assets/img/redux.svg";
 import JavaScript from "../assets/img/javascript.svg";
+import TypeScript from "../assets/img/typescript.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
@@ -88,6 +89,10 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={JavaScript} alt="Image" />
                                 <h5>JavaScript</h5>
+                            </div>
+                            <div className="item">
+                                <img src={TypeScript} alt="Image" />
+                                <h5>TypeScript</h5>
                             </div>
                         </Carousel>
                     </div>
