@@ -19,7 +19,7 @@ export const Footer = () => {
               {/* <a href="#"><img src={navIcon2} alt="" /></a> */}
               <a href="https://github.com/OswalDev" target="_blank"><img src={navIcon2} alt="" /></a>
             </div>
-            <p>Copyright 2022. All Rights Reserved</p>
+            <p>Copyright 2023. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>
