@@ -11,8 +11,8 @@ export const ProjectCard = ({ title, description, imgUrl, links }) => {
           <h4>{title}</h4>
           <span>{description}</span>
           <div className="relative social-icon">
-              {links.demo !== "" && (<a href={links.demo} target="_blank"><img src={navIcon1} alt="" /></a>)}
-              {links.repository !== "" && (<a href={links.repository} target="_blank"><img src={navIcon2} alt="" /></a>)}
+              {links.demo !== "" && (<a href={links.demo} aria-label="Project" target="_blank"><img src={navIcon1} alt="" /></a>)}
+              {links.repository !== "" && (<a href={links.repository} aria-label="Repository" target="_blank"><img src={navIcon2} alt="" /></a>)}
               </div>
         </div>
       </div>
