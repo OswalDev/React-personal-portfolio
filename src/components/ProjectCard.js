@@ -1,6 +1,6 @@
 import { Col } from "react-bootstrap";
-import navIcon1 from '../assets/img/globe.svg';
-import navIcon2 from '../assets/img/nav-icon7.svg';
+import navIcon1 from '../assets/img/nav-icons/globe.svg';
+import navIcon2 from '../assets/img/nav-icons/nav-icon7.svg';
 
 export const ProjectCard = ({ title, description, imgUrl, links }) => {
   return (

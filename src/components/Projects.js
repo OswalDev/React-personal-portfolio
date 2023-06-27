@@ -1,11 +1,11 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/projects/project-img1-compressed.jpg";
-import projImg2 from "../assets/img/projects//project-img2-compressed.jpg";
-import projImg3 from "../assets/img/projects//project-img3-compressed.jpg";
-import projImg5 from "../assets/img/projects//project-img5-compressed.png";
-import projImg4 from "../assets/img/projects//project-img7-compressed.jpg";
-import projImg6 from "../assets/img/projects//project-img13.jpg";
+import projImg1 from "../assets/img/projects/jpg/project-img1-compressed.jpg";
+import projImg2 from "../assets/img/projects/jpg/project-img2-compressed.jpg";
+import projImg3 from "../assets/img/projects/jpg/project-img3-compressed.jpg";
+import projImg5 from "../assets/img/projects/jpg/project-img5-compressed.jpg";
+import projImg4 from "../assets/img/projects/jpg/project-img7-compressed.jpg";
+import projImg6 from "../assets/img/projects/jpg/project-img13.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -129,7 +129,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      <img alt="bnckground-image-right" className="background-image-right" src={colorSharp2}></img>
     </section>
   )
 }

@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from '../assets/img/PortfolioLogo5.svg';
-import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/nav-icon2.svg';
-import navIcon3 from '../assets/img/nav-icon7.svg';
-import sendIcon from '../assets/img/send.svg';
+import logo from '../assets/img/logo/PortfolioLogo5.svg';
+import navIcon1 from '../assets/img/nav-icons/nav-icon1.svg';
+import navIcon2 from '../assets/img/nav-icons/nav-icon2.svg';
+import navIcon3 from '../assets/img/nav-icons/nav-icon7.svg';
+import sendIcon from '../assets/img/nav-icons/send.svg';
 import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router

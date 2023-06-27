@@ -1,19 +1,19 @@
-import Tailwind from "../assets/img/tailwind.svg";
-import Laravel from "../assets/img/laravel.svg";
-import Css from "../assets/img/css.svg";
-import Express from "../assets/img/express.svg";
-import Git from "../assets/img/git.svg";
-import Nodejs from "../assets/img/nodejs.svg";
-import MongoDB from "../assets/img/mongodb.svg";
-import PHP from "../assets/img/php.svg";
-import React from "../assets/img/react.svg";
-import Redux from "../assets/img/redux.svg";
-import JavaScript from "../assets/img/javascript.svg";
-import TypeScript from "../assets/img/typescript.svg";
+import Tailwind from "../assets/img/technologies/tailwind.svg";
+import Laravel from "../assets/img/technologies/laravel.svg";
+import Css from "../assets/img/technologies/css.svg";
+import Express from "../assets/img/technologies/express.svg";
+import Git from "../assets/img/technologies/git.svg";
+import Nodejs from "../assets/img/technologies/nodejs.svg";
+import MongoDB from "../assets/img/technologies/mongodb.svg";
+import PHP from "../assets/img/technologies/php.svg";
+import React from "../assets/img/technologies/react.svg";
+import Redux from "../assets/img/technologies/redux.svg";
+import JavaScript from "../assets/img/technologies/javascript.svg";
+import TypeScript from "../assets/img/technologies/typescript.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
+import arrow1 from "../assets/img/nav-icons/arrow1.svg";
+import arrow2 from "../assets/img/nav-icons/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {
