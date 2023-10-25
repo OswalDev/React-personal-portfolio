@@ -3,8 +3,8 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/projects/jpg/project-img1-compressed.jpg";
 import projImg2 from "../assets/img/projects/jpg/project-img2-compressed.jpg";
 import projImg3 from "../assets/img/projects/jpg/project-img3-compressed.jpg";
-import projImg5 from "../assets/img/projects/jpg/project-img5-compressed.jpg";
 import projImg4 from "../assets/img/projects/jpg/project-img7-compressed.jpg";
+import projImg5 from "../assets/img/projects/jpg/project-img5.jpg";
 import projImg6 from "../assets/img/projects/jpg/project-img13.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -50,7 +50,7 @@ export const Projects = () => {
       },
     },
     {
-      title: "FullStack expense tracker",
+      title: "Note-taking app",
       description: "Design & Development",
       imgUrl: projImg5,
       links:{
